@@ -1,9 +1,9 @@
-package ru.clevertec;
+package ru.clevertec.donnerAbstract;
 
-import ru.clevertec.interfaces.AbstractDonnerFactory;
-import ru.clevertec.interfaces.Donner;
-import ru.clevertec.lisica.LisicaFactory;
-import ru.clevertec.papadonner.PapadonnerFactory;
+import ru.clevertec.donnerAbstract.interfaces.AbstractDonnerFactory;
+import ru.clevertec.donnerAbstract.interfaces.Donner;
+import ru.clevertec.donnerAbstract.lisica.LisicaFactory;
+import ru.clevertec.donnerAbstract.papadonner.PapadonnerFactory;
 
 import java.util.Scanner;
 

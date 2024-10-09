@@ -1,7 +1,7 @@
-package ru.clevertec.lisica;
+package ru.clevertec.donnerAbstract.lisica;
 
-import ru.clevertec.interfaces.AbstractDonnerFactory;
-import ru.clevertec.interfaces.Donner;
+import ru.clevertec.donnerAbstract.interfaces.AbstractDonnerFactory;
+import ru.clevertec.donnerAbstract.interfaces.Donner;
 
 public class LisicaFactory implements AbstractDonnerFactory {
 

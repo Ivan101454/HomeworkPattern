@@ -1,4 +1,4 @@
-package ru.clevertec.interfaces;
+package ru.clevertec.donnerAbstract.interfaces;
 
 public interface AbstractDonnerFactory {
     Donner createDonnerMushroomSourcream();

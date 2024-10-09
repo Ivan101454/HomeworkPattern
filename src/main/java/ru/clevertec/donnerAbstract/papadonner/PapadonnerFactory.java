@@ -1,7 +1,7 @@
-package ru.clevertec.papadonner;
+package ru.clevertec.donnerAbstract.papadonner;
 
-import ru.clevertec.interfaces.AbstractDonnerFactory;
-import ru.clevertec.interfaces.Donner;
+import ru.clevertec.donnerAbstract.interfaces.AbstractDonnerFactory;
+import ru.clevertec.donnerAbstract.interfaces.Donner;
 
 public class PapadonnerFactory implements AbstractDonnerFactory {
 

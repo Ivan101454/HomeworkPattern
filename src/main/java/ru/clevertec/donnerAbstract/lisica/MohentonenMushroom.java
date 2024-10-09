@@ -1,6 +1,6 @@
-package ru.clevertec.lisica;
+package ru.clevertec.donnerAbstract.lisica;
 
-import ru.clevertec.interfaces.Donner;
+import ru.clevertec.donnerAbstract.interfaces.Donner;
 
 public class MohentonenMushroom implements Donner {
     @Override
