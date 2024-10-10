@@ -1,6 +1,14 @@
 package ru.clevertec.animalBuilder.builder;
 
+import ru.clevertec.animalBuilder.model.Animal;
+
 public class PredatorBuilding extends AbstractBuilderAnimal{
+    @Override
+    public AbstractBuilderAnimal createAnimal() {
+        super.setAnimal(new Animal());
+        return this;
+    }
+
     @Override
     public PredatorBuilding setId(int id) {
         getAnimal().setId(id);

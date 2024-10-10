@@ -13,18 +13,18 @@ public class Main {
     }
     public static void task1() {
         //Создаем новое животное и доавляем в список
-        Animal animalNew = new PredatorBuilding().setId(0).setAge(5).setBread("Lion").setOrigin("Africa")
+        Animal animalNew = new PredatorBuilding().createAnimal().setAge(5).setBread("Lion").setOrigin("Africa")
                 .setGender("Female").getAnimal();
         System.out.println(animalNew.toString());
 
 
-//        List<Animal> animals = Util.getAnimals();
-//        animals.add(animalNew);
-//
-//        animals.stream()
-//                .filter(animal -> (animal.getAge() >= 10 && animal.getAge() < 20))
-//                .sorted(Comparator.comparing(Animal::getAge))
-//                .skip(2).limit(7)
-//                .forEach(System.out::println);
+        List<Animal> animals = Util.getAnimals();
+        animals.add(animalNew);
+
+        animals.stream()
+                .filter(animal -> (animal.getAge() >= 10 && animal.getAge() < 20))
+                .sorted(Comparator.comparing(Animal::getAge))
+                .skip(2).limit(7)
+                .forEach(System.out::println);
     }
 }
